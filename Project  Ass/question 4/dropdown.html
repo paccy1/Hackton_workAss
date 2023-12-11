@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="dropdown.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dropdown Menu</title>
+    
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Projects
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#service1">Project 1</a>
+                <a href="#service2">Project 2</a>
+                <a href="#service3">Project 3</a>
+            </div>
+        </div>
+
+        <a href="#" class="icon" onclick="toggleMenu()">&#9776;</a>
+    </div>
+    <script type="text/javascript" src="dropdown.js"></script>
+
+</body>
+
+</html>
