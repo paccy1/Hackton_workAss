@@ -24,7 +24,7 @@ body {
 .popup-content {
     background: #fff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 80%;
@@ -32,7 +32,7 @@ body {
 }
 
 .close-btn {
-    background-color: #4caf50;
+    background-color: darkcyan;
     color: #fff;
     padding: 10px 15px;
     border: none;
@@ -42,6 +42,6 @@ body {
 
 @media screen and (max-width: 600px) {
     .popup-content {
-        width: 90%;
+        width: 100%;
     }
 }

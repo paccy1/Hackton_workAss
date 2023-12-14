@@ -10,7 +10,7 @@ body {
 }
 
 .profile-card {
-    background-color: #fff;
+    background-color:antiquewhite;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -44,10 +44,11 @@ body {
 }
 
 .toggle-btn {
-    background-color: #4caf50;
+    background-color:darkcyan;
     color: #fff;
     padding: 10px;
     border: none;
+    border-radius:8px;
     cursor: pointer;
 }
 

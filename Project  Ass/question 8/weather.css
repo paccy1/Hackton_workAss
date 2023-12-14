@@ -10,7 +10,7 @@ body {
 }
 
 .weather-container {
-    background-color: #fff;
+    background-color:bisque;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -23,15 +23,17 @@ input[type="text"] {
     padding: 10px;
     margin-bottom: 10px;
     font-size: 16px;
+    border-radius: 8px;
 }
 
 button {
-    background-color: #4caf50;
+    background-color:cadetblue;
     color: #fff;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 8px;
 }
 
 #weather-info {
